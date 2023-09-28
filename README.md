@@ -1,5 +1,5 @@
 ## Achieving Minimum Viable Security Automation for Web Apps
-### A Guide by Cnawel
+### by Cnawel
 
 In today's ever-evolving digital landscape, **security is paramount**. Ensuring the safety of our web applications is not just a best practice; it's a necessity. But where do we start, especially if we're looking for a minimalistic yet effective approach? Allow me to introduce you to *Minimum Viable Security Automation (MVSA)*.
 
