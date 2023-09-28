@@ -26,4 +26,14 @@ Dynamic Application Security Testing allows you to identify vulnerabilities whil
 7. MFA (Multi-Factor Authentication):
 Lastly, we delve into the world of Multi-Factor Authentication, a vital defense layer for web applications. Automate MFA configurations to bolster user account security.
 
-Join me on this journey to secure your web apps, one automated step at a time. Security doesn't have to be overwhelming; with MVSA, it can be both effective and manageable.
+## PYTHON APP
+8 things to keep in mind with Python Web Apps
+
+1. Your Code
+2. Your Infra
+3. Your Runtime
+4. Your Pipeline
+5. Your Data
+6. Your 3rd Parties
+7. Your People
+8. Your Operations

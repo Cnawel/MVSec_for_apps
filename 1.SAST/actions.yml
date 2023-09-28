@@ -1,0 +1,15 @@
+  SAST:
+    runs-on: ubuntu-latest
+    name: Static-Vulnerability-Scanner
+    steps:
+      - uses: actions/checkout@v1
+      - name: SAST
+        uses: jpetrucciani/bandit-check@master
+        with:
+          path: '.'
+          bandit_flags: '-ll -o output.json -f json'
+      - uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: bandit_scan
+          path: output.json

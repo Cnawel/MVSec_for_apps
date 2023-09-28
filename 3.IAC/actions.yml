@@ -1,0 +1,15 @@
+  ## TERRAFORM CHECK
+  
+  INFRA:
+    runs-on: ubuntu-latest
+    name: Infrastructure misconfig detection
+    steps:
+      - uses: actions/checkout@v2
+      - name: run kics Scan
+        uses: checkmarx/kics-github-action@v1.4
+        with:
+          path: 'terraform'
+          output_path: myResults/
+      - name: display kics results
+        run: |
+          cat myResults/results.json
